@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #fff;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<div class="sidenav">
+  <a href="#about">about</a>
+  <a href="#services">blog</a>
+  <a href="#clients">projects</a>
+  <a href="#contact">contact</a>
+</div>
+
+</body>
+</html> 
